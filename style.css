@@ -17,7 +17,7 @@ body {
 .header-logo {
     font-size: 24px;
     color:#f9faf8;
-    font-weight: 800;
+    font-weight: 900;
     padding-top: 10px;
 }
 
@@ -44,6 +44,50 @@ li {
   padding-left: 20px;
 }
 
+.section-one .title {
+    font-size: 48px;
+    font-weight: 900;
+    color: #f9faf8;
+}
+
+.section-one { 
+    display: flex;
+    padding-left: 200px;
+    padding-right: 200px;
+    padding-top: 120px;
+    padding-bottom: 120px;
+    justify-content: center;
+    gap:50px
+}
+
+.section-one > div {
+    flex: 1
+}
+
+.content-01 {
+    display: flex;
+    flex-direction: column;
+    gap:10px
+}
+
+.img {
+    display: flex;
+    color: white;
+    background-color: grey;
+    justify-content: center;
+    align-items: center;
+}
+
+.button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 110px;
+    height: 30px;
+    border-radius: 10px;
+    font-weight: 900;
+}
+
 .button, .section-four .title {
     background-color: #3882F6;
 }
@@ -52,15 +96,10 @@ li {
     background-color: #E5E7EB;
 }
 
-.section-one .title {
-    font-size: 48px;
-    font-weight: 800;
-    color: #f9faf8;
-}
 
 .section-two .title {
     font-size: 36px;
-    font-weight: 800;
+    font-weight: 900;
     color: #1f2937;
 }
 
