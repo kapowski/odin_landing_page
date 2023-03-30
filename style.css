@@ -1,3 +1,7 @@
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
 .header, .section-one, .footer {
     background-color: #1F2937;
 }
@@ -8,4 +12,33 @@
 
 .section-three {
     background-color: #E5E7EB;
+}
+
+.section-one .title {
+    font-size: 48px;
+    font-weight: 800;
+    color: #f9faf8;
+}
+
+ul, .section-one .text {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.header {
+    font-size: 24px;
+    color:#f9faf8;
+}
+
+.section-two .title {
+    font-size: 36px;
+    font-weight: 800;
+    color: #1f2937;
+}
+
+.quote {
+    font-size: 36px;
+    font-weight: 300;
+    font-style: italic;
+    color: #1f2937;
 }
