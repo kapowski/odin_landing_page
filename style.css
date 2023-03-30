@@ -2,21 +2,46 @@ body {
     font-family: 'Roboto', sans-serif;
     display: flex;
     flex-direction: column;
+    margin: 0;
+    padding: 0;
 }
 
 .header {
     display: flex;
     justify-content: space-between;
+    flex-wrap: nowrap;
+    padding-left: 200px;
+    padding-right: 200px;
 }
 
-ul {
-    display: flex;
-    list-style-type: none;
-    margin-left: 20px;   
+.header-logo {
+    font-size: 24px;
+    color:#f9faf8;
+    font-weight: 800;
+    padding-top: 10px;
 }
 
 .header, .section-one, .footer {
     background-color: #1F2937;
+}
+
+a {
+    text-decoration-line: none;
+    color: #e5e7eb;
+  }
+
+ul, .section-one .text {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+ul {
+    display: flex;
+    list-style-type: none;   
+}
+
+li {
+  padding-left: 20px;
 }
 
 .button, .section-four .title {
@@ -31,21 +56,6 @@ ul {
     font-size: 48px;
     font-weight: 800;
     color: #f9faf8;
-}
-
-ul, .section-one .text {
-    font-size: 18px;
-    color: #e5e7eb;
-}
-
-a {
-    text-decoration-line: none;
-    color: #e5e7eb;
-  }
-
-.header {
-    font-size: 24px;
-    color:#f9faf8;
 }
 
 .section-two .title {
