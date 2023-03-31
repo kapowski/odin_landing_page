@@ -114,6 +114,7 @@ li {
     justify-content: center;
     align-items: center;
     gap: 40px;
+    flex-wrap: wrap;
 }
 
 .text-block-pair > div {
@@ -122,6 +123,7 @@ li {
     justify-content: center;
     align-items: center;
     text-align: center;
+    
 }
 
 .block {
