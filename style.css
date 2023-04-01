@@ -140,11 +140,26 @@ li {
 
 .section-three {
     background-color: #E5E7EB;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 7em 23em
 }
 
 .quote {
+    display: flex;
     font-size: 36px;
-    font-weight: 300;
+    font-weight: 100;
     font-style: italic;
     color: #1f2937;
+    
+}
+
+.quote-author {
+    display: flex;
+    justify-content: flex-end;
+    color: #1f2937;
+    font-size: 25px;
+    font-weight: 900;
+    padding-top: 10px;
 }
