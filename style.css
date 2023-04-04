@@ -89,7 +89,7 @@ li {
     font-weight: 900;
 }
 
-.button, .section-four .title {
+.button, .section-four .text-block {
     background-color: #3882F6;
 }
 
@@ -136,6 +136,7 @@ li {
 .block-text {
     text-align: center;
     width: 160px;
+    margin-top: 5px;
 }
 
 .section-three {
@@ -143,16 +144,14 @@ li {
     display: flex;
     justify-content: center;
     flex-direction: column;
-    padding: 7em 23em
+    padding: 7em 23em;
 }
 
 .quote {
-    display: flex;
     font-size: 36px;
     font-weight: 100;
     font-style: italic;
-    color: #1f2937;
-    
+    color: #1f2937;  
 }
 
 .quote-author {
@@ -162,4 +161,35 @@ li {
     font-size: 25px;
     font-weight: 900;
     padding-top: 10px;
+}
+
+.section-four .text-block {
+    margin-top: 120px;
+    margin-bottom: 120px;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    display: flex;
+    color: #E5E7EB;
+    border-radius: 15px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.title-text {
+    display: flex;
+    flex-direction: column;
+}
+
+.section-four .title {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.section-four .text {
+    font-size: 18px;
+}
+
+.section-four .button {
+    border: 4px solid #FFF;
+    border-radius: 8px;
 }
